@@ -4,15 +4,15 @@
     width: 80%;
     margin: 8px auto;
     background-color: #f3f3f3;
-    padding: 20px;
+    padding: 24px;
     overflow: hidden;
 }
 
 .motor {
     padding: 0px;
     float: left;
-    width: 200px;
-    margin: 16px 24px;
+    width: 23%;
+    margin: 10px;
     background-color: white;
 }
 
@@ -99,8 +99,9 @@ header {
 }
 
 main {
-    margin-top: 80px;
+    margin-top: 60px;
     background-color: #f3f3f3;
+    padding-bottom: 16px;
 }
 
 header .search-container {
@@ -133,8 +134,12 @@ header .search-container button {
 
   .navigation {
     width: 80%;
-    margin: 35px auto;
-    padding: 20px;
+    margin: 0px 32px;
+    padding: 8px;
+  }
+
+  h4 a {
+      text-decoration: none;
   }
 /*#007979*/
 /*4CCF90*/
