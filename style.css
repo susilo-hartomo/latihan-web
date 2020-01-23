@@ -121,6 +121,65 @@ section a {
     width: 100%;
 }
 
+/* tambahan */
+
+.list-matic {
+    width: 80%;
+    margin: 8px auto;
+    background-color: #f3f3f3;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.motor {
+    padding: 0px;
+    float: left;
+    width: 200px;
+    margin: 16px 24px;
+    background-color: white;
+}
+
+.motor:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+.keterangan {
+    background-color: #F0FFF8;
+    height: 125px;
+    margin: 8px 0px 0px 0px;
+    padding: 8px;
+}
+
+
+.keterangan p {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0px 8px;
+    color: #5b5b5b;
+}
+
+.keterangan h3 {
+    font-size: 24px;
+    margin: 8px 8px;
+}
+
+.keterangan h2 {
+    margin: 8px 8px;
+    color: #4ccf90;
+}
+
+.motor img
+{
+    width: 200px;
+    height: 225px;
+    display: block;
+    background-color: white;
+}
+
+/* selesai tambahan */
+
 .footer {
     background-image: url("img/lokasi.png");
     height: 180px;
