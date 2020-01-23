@@ -1,0 +1,181 @@
+/*css ismail*/
+body{
+    text-align: center;
+}
+
+#wrapper{
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/*header*/
+header{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #4CCF90;
+}
+
+header .search-container{
+    float: left;
+    margin-left: 16px;
+  }
+  
+header input[type=text]{
+    padding: 6px;
+    margin-top: 24px;
+    font-size: 17px;
+    border: none;
+    width: 480px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+header .search-container button{
+    float: left;
+    padding: 6px 10px;
+    margin-top: 24px;
+    margin-right: 0px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+.tombol{
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 8px;
+      width: 80px;
+      margin: 20px 32px;
+      text-align: center;
+      color: black;
+      float: right;
+}
+   
+  .tombol-login{
+      background-color: white;
+}
+
+
+/*section*/
+#banner{
+    position: absolute;
+    width: 1440px;
+    height: 586.61px;
+    left: 0px;
+    top: 80px;
+    
+    background: #C4C4C4;
+}
+
+/*product*/
+.type1{
+    position: absolute;
+    width: 296.74px;
+    height: 420.84px;
+    left: 53.86px;
+    top: 908.13px;
+    
+    background: #C4C4C4;
+}
+
+.type2{
+    position: absolute;
+    width: 296.74px;
+    height: 420.84px;
+    left: 398.58px;
+    top: 908.13px;
+    
+    background: #C4C4C4;
+}
+
+.type3{
+    position: absolute;
+    width: 296.74px;
+    height: 420.84px;
+    left: 743.29px;
+    top: 908.13px;
+    
+    background: #C4C4C4;
+}
+
+.type4{
+    position: absolute;
+    width: 296.74px;
+    height: 420.84px;
+    left: 1088px;
+    top: 908.13px;
+    
+    background: #C4C4C4;
+}
+
+/*aside*/
+.aside1{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 1.4px;
+    top: 1541.62px;
+    
+    background: #C4C4C4;
+}
+
+.aside2{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 360.93px;
+    top: 1541.62px;
+    
+    background: #E5E5E5;
+}
+
+.aside3{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 720.47px;
+    top: 1541.62px;
+    
+    background: #F0F0F0;
+}
+
+.aside4{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 1080px;
+    top: 1541.62px;
+    
+    background: #FBFBFB;
+}
+
+/*article*/
+article{
+    position: absolute;
+    width: 1440px;
+    height: 194.76px;
+    left: 0px;
+    top: 1901.62px;
+    
+    background: #B0A1A1;
+}
+
+/*footer*/
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 87.76px;
+    left: 1.4px;
+    top: 2096.39px;  
+    background: #4CCF90;
+    text-align: center;
+}
