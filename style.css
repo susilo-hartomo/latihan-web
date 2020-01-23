@@ -1,20 +1,49 @@
 /*css untuk motor matic yamaha*/
 
 .list-matic {
-    width: 75%;
-    margin: 35px auto;
-    background-color: whitesmoke;
+    width: 80%;
+    margin: 8px auto;
+    background-color: #f3f3f3;
     padding: 20px;
     overflow: hidden;
 }
 
 .motor {
-    border: 1px solid #888888;
-    padding: 10px;
+    padding: 0px;
     float: left;
     width: 200px;
-    margin: 5px;
-    background-color : #F0FFF8;
+    margin: 16px 24px;
+    background-color: white;
+}
+
+.motor:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+.keterangan {
+    background-color: #F0FFF8;
+    height: 125px;
+    margin: 8px 0px 0px 0px;
+    padding: 8px;
+}
+
+
+.keterangan p {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0px 8px;
+    color: #5b5b5b;
+}
+
+.keterangan h3 {
+    font-size: 24px;
+    margin: 8px 8px;
+}
+
+.keterangan h2 {
+    margin: 8px 8px;
+    color: #4ccf90;
 }
 
 body {
@@ -30,14 +59,14 @@ body {
 }
 
 footer {
-    background-color: #007979;
+    background-color: #4ccf90;
     text-align: center;
     padding: 15px 15px;
 }
 
 header {
     overflow: hidden;
-    background-color: #007979;;
+    background-color: #4ccf90;
     position: fixed;
     top : 0;
     width: 100%;
@@ -70,7 +99,8 @@ header {
 }
 
 main {
-    margin-top: 88px;
+    margin-top: 80px;
+    background-color: #f3f3f3;
 }
 
 header .search-container {
@@ -99,6 +129,12 @@ header .search-container button {
     cursor: pointer;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+  }
+
+  .navigation {
+    width: 80%;
+    margin: 35px auto;
+    padding: 20px;
   }
 /*#007979*/
 /*4CCF90*/
