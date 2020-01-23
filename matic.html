@@ -2,25 +2,33 @@
 <html>
     <head>
         <title>Motor Matic Yamaha</title>
-        <link rel="stylesheet" href="./maticstyle.css" type="text/css">
+        <link rel="stylesheet" href="css/maticstyle.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <img id="logo" src="img/logobaru.png" width="200px" />
-            <a href="#" class="tombol tombol-login">Log in</a>
+            <div class="logo">
+                <img id="logo-img" src="img/logo.png">
+                <a id="logo-type" href="">motto</a>
+            </div>
+            
             <div class="search-container">
-                <form action="#">
-                  <input type="text" placeholder="Cari Motor.." name="search">
-                  <button type="submit"><img src="img/search.png"></button>
+                <form action="">
+                    <input id="txt" type="text" placeholder="Cari Motor : Yamaha, Honda ...">
                 </form>
+            </div>
+            
+            <div class="login">
+                <a>Log In</a>
             </div>
         </header>
         <main>
             <div class="navigation">
-                <h2>Motor Matic</h2>
-                <h4>Menu>Yamaha>Matic</h4>
+                <h2>Motor Matic Yamaha</h2>
+                <h4><a href="./index.html">Home</a>><a href="./yamaha.html">Yamaha</a>><a href="#">Matic</a></h4>
             </div>
             <div class="list-matic">
+                <a href="./detail.html">
                 <div class="motor">
                     <img src="img/xmax.png" />
                     <div class="keterangan">
@@ -29,6 +37,7 @@
                         <h2>Rp 64.000.000</h2>
                     </div>
                 </div>
+                </a>
                 <div class="motor">
                     <img src="img/xmax.png" />
                     <div class="keterangan">
