@@ -1,0 +1,128 @@
+header {
+    display: inline-flex;
+    background-color: #4CCF90;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    margin-left: 40px;
+
+}
+
+#logo-img {
+    margin-top: 15px;
+    height: 40px;
+    }
+
+    #logo-type {
+    font-family: "Reem kufi";
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+    transform: translateY(-20%);
+}
+
+.search-container{
+background-color: white;
+margin: auto;
+border-radius: 4px;
+width: 60%;
+padding: 5px 10px 5px 20px;
+}
+
+#search-ic{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+#txt {
+    text-decoration: none;
+    width: 93%;
+    border: none;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.login {
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+}
+
+
+ .konten{
+ 		display: inline-flex;
+ 		margin : auto;
+ 		padding: auto;
+ }
+
+ .hijau{
+ 	color: #4CCF90;
+ }
+
+ span{
+ 	color : #4CCF90;
+ }
+
+
+
+
+h1{
+
+	font-family:  "Arial", Times, serif;
+}
+
+
+h1.top{
+	position: absolute;
+	left: 50px;
+	top: 75px;
+	right: 50px;
+}
+
+
+p.urutan {
+	font-style: italic; 
+	margin-top: 100px;
+	margin-left: 55px;
+	font-size: 30px;
+	font-weight:1000;
+}
+
+
+
+video {
+ width: 700px;
+ height: 700px;
+ margin-left: 100px;
+}
+
+
+table {
+	background-color: #F0FFF8;
+  width: 200px;
+  height: 500px;  
+  padding: 25px;
+  border: 25px #F0FFF8;
+  margin left: 25px;
+}
+
+body {
+    margin: 0px;
+    background-color: beige;
+}
+
+
+
+
+button{
+	background-color: #4CCF90;
+
+
+
+}
