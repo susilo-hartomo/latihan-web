@@ -69,7 +69,7 @@ body {
 
 
 .hero {
-    background-image: url("img/hero.jpg");
+    background-image: url("../img/hero.jpg");
     height: 400px;
     top: 0;
     padding: 180px 0px 0px 60px;
@@ -207,7 +207,7 @@ section a:hover {
 /* selesai tambahan */
 
 .footer {
-    background-image: url("img/lokasi.png");
+    background-image: url("../img/lokasi.png");
     height: 180px;
     padding: 30px;
 }
