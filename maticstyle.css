@@ -10,6 +10,7 @@
 
 .motor {
     padding: 0px;
+    padding-top: 20px;
     float: left;
     width: 23%;
     margin: 10px;
@@ -56,6 +57,8 @@ body {
     height: 225px;
     display: block;
     background-color: white;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 footer {
