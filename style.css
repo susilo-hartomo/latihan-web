@@ -16,10 +16,20 @@
     margin: 5px;
 }
 
+body {
+    margin: 0;
+}
+
 .motor img
 {
     width: 100%;
-    height: 175px;
+    height: 225px;
     display: block;
     margin-bottom: 5px;
+}
+
+footer {
+    background-color: #4CCF90;
+    text-align: center;
+    padding: 15px 15px;
 }
