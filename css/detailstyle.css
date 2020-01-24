@@ -1,3 +1,4 @@
+/*aldy*/
 header {
     display: inline-flex;
     background-color: #4CCF90;
@@ -121,7 +122,15 @@ body {
 
 
 button{
-	background-color: #4CCF90;
+    background-color: #4CCF90;
+    margin-top: 87;
+
+
+
+}
+
+.margin1{
+    margin-right: 20px;
 
 
 
