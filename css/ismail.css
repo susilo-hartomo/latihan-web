@@ -1,6 +1,7 @@
 /*css ismail*/
-body{
-    text-align: center;
+body {
+    margin: 0px;
+    background-color: beige;
 }
 
 #wrapper{
@@ -11,69 +12,130 @@ body{
 }
 
 /*header*/
-header{
+header {
+    display: inline-flex;
+    background-color: #4CCF90;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    margin-left: 40px;   
+}
+
+#logo-img {
+    margin-top: 15px;
+    height: 40px;
+}
+
+#logo-type {
+    font-family: "Reem kufi";
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+    transform: translateY(-20%);
+}
+
+.search-container{
+background-color: white;
+margin: auto;
+border-radius: 4px;
+width: 60%;
+padding: 5px 10px 5px 20px;
+}
+
+#search-ic{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+#txt {
+    text-decoration: none;
+    width: 93%;
+    border: none;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+
+.login {
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+}
+
+.login a {
+    font-size: 16px;
+    color: #4CCF90;
+}
+
+/*banner*/
+.banner {
+    background: #C4C4C4;
+    height: 250px;
+    top: 0;
+    padding: 180px 0px 0px 60px;
+    color: black;
+}
+
+.banner h1 {
     position: absolute;
-    width: 1440px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-
-    background: #4CCF90;
+    width: 489px;
+    height: 72px;
+    left: 90px;
+    top: 169.17px;
+    
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;  
+    
 }
 
-header .search-container{
-    float: left;
-    margin-left: 16px;
-  }
-  
-header input[type=text]{
-    padding: 6px;
-    margin-top: 24px;
-    font-size: 17px;
-    border: none;
-    width: 480px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
-  
-header .search-container button{
-    float: left;
-    padding: 6px 10px;
-    margin-top: 24px;
-    margin-right: 0px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-  }
+.banner p{
+position: absolute;
+width: 705px;
+height: 36px;
+left: 94.65px;
+top: 250.65px;
 
-.tombol{
-      text-decoration: none;
-      border-radius: 8px;
-      padding: 8px;
-      width: 80px;
-      margin: 20px 32px;
-      text-align: center;
-      color: black;
-      float: right;
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
 }
-   
-  .tombol-login{
-      background-color: white;
-}
-
 
 /*section*/
-#banner{
-    position: absolute;
-    width: 1440px;
-    height: 586.61px;
-    left: 0px;
-    top: 80px;
-    
-    background: #C4C4C4;
+section {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+
+section img {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+}
+
+section a {
+    text-align: center;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+section a:hover {
+    box-shadow: 5px 5px 5px 5px #4CCF90;
+    opacity: 50%;
 }
 
 /*product*/
@@ -171,11 +233,8 @@ article{
 
 /*footer*/
 footer{
-    position: absolute;
-    width: 1440px;
-    height: 87.76px;
-    left: 1.4px;
-    top: 2096.39px;  
-    background: #4CCF90;
+    background-color: #4CCF90;
     text-align: center;
+    font-size: 18px;
+    padding: 10px;
 }
