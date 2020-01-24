@@ -138,89 +138,7 @@ section a:hover {
     opacity: 50%;
 }
 
-/*product*/
-.type1{
-    position: absolute;
-    width: 296.74px;
-    height: 420.84px;
-    left: 53.86px;
-    top: 908.13px;
-    
-    background: #C4C4C4;
-}
-
-.type2{
-    position: absolute;
-    width: 296.74px;
-    height: 420.84px;
-    left: 398.58px;
-    top: 908.13px;
-    
-    background: #C4C4C4;
-}
-
-.type3{
-    position: absolute;
-    width: 296.74px;
-    height: 420.84px;
-    left: 743.29px;
-    top: 908.13px;
-    
-    background: #C4C4C4;
-}
-
-.type4{
-    position: absolute;
-    width: 296.74px;
-    height: 420.84px;
-    left: 1088px;
-    top: 908.13px;
-    
-    background: #C4C4C4;
-}
-
-/*aside*/
-.aside1{
-    position: absolute;
-    width: 360px;
-    height: 360px;
-    left: 1.4px;
-    top: 1541.62px;
-    
-    background: #C4C4C4;
-}
-
-.aside2{
-    position: absolute;
-    width: 360px;
-    height: 360px;
-    left: 360.93px;
-    top: 1541.62px;
-    
-    background: #E5E5E5;
-}
-
-.aside3{
-    position: absolute;
-    width: 360px;
-    height: 360px;
-    left: 720.47px;
-    top: 1541.62px;
-    
-    background: #F0F0F0;
-}
-
-.aside4{
-    position: absolute;
-    width: 360px;
-    height: 360px;
-    left: 1080px;
-    top: 1541.62px;
-    
-    background: #FBFBFB;
-}
-
-/*article*/
+/* /*article
 article{
     position: absolute;
     width: 1440px;
@@ -229,7 +147,7 @@ article{
     top: 1901.62px;
     
     background: #B0A1A1;
-}
+} */
 
 /*footer*/
 footer{

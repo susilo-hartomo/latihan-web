@@ -1,0 +1,105 @@
+/*css untuk motor matic yamaha*/
+.motor img{
+    color: ;
+}
+
+.list-matic {
+    width: 75%;
+    margin: 35px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.motor {
+    border: 1px solid #888888;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    margin: 5px;
+    background-color : #F0FFF8;
+}
+
+body {
+    margin: 0;
+}
+
+.motor img
+{
+    width: 200px;
+    height: 225px;
+    display: block;
+    background-color: white;
+}
+
+footer {
+    background-color: #007979;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+header {
+    overflow: hidden;
+    background-color: #007979;;
+    position: fixed;
+    top : 0;
+    width: 100%;
+    height: 82px;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+
+
+
+main {
+    margin-top: 88px;
+}
+
+header .search-container {
+    float: left;
+    margin-left: 16px;
+  }
+  
+header input[type=text] {
+    padding: 6px;
+    margin-top: 24px;
+    font-size: 17px;
+    border: none;
+    width: 480px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+header .search-container button {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 24px;
+    margin-right: 0px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .tombol
+  {
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 8px;
+      display: inline-block;
+      width: 80px;
+      margin: 20px 32px;
+      text-align: center;
+      color: black;
+      float: right;
+  }
+   
+  .tombol-login
+  {
+      background-color: white;
+  }
+  
+/*#007979*/
+/*4CCF90*/
